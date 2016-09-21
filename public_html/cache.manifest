@@ -1,0 +1,58 @@
+CACHE MANIFEST
+# Date : 2016/09/21 - Version : 1
+
+CACHE:
+index.html
+favicon.png
+icon-128x128.png
+icon-196x196.png
+color.png
+
+inc/main.js
+inc/objects.js
+
+inc/mydialog.js
+
+# Bootstrap
+inc/lib/bootstrap/css/bootstrap.min.css
+inc/lib/bootstrap/css/bootstrap-theme.min.css
+inc/lib/bootstrap/css/bootstrap.css
+inc/lib/bootstrap/css/bootstrap-theme.css
+inc/lib/bootstrap/css/bootstrap.css.map
+inc/lib/bootstrap/css/bootstrap-theme.min.css.map
+inc/lib/bootstrap/css/bootstrap-theme.css.map
+inc/lib/bootstrap/css/bootstrap.min.css.map
+inc/lib/bootstrap/js/bootstrap.js
+inc/lib/bootstrap/js/npm.js
+inc/lib/bootstrap/js/bootstrap.min.js
+inc/lib/bootstrap/fonts/glyphicons-halflings-regular.eot
+inc/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2
+inc/lib/bootstrap/fonts/glyphicons-halflings-regular.woff
+inc/lib/bootstrap/fonts/glyphicons-halflings-regular.svg
+inc/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf
+
+# jQuery
+inc/lib/jquery.min.js
+
+# Font Awesome
+inc/lib/font-awesome/css/font-awesome.css
+inc/lib/font-awesome/css/font-awesome.min.css
+inc/lib/font-awesome/fonts/fontawesome-webfont.ttf
+inc/lib/font-awesome/fonts/fontawesome-webfont.eot
+inc/lib/font-awesome/fonts/FontAwesome.otf
+inc/lib/font-awesome/fonts/fontawesome-webfont.woff2
+inc/lib/font-awesome/fonts/fontawesome-webfont.woff
+inc/lib/font-awesome/fonts/fontawesome-webfont.svg
+
+# noUiSlider
+inc/lib/nouislider/nouislider.css
+inc/lib/nouislider/nouislider.min.js
+inc/lib/nouislider/nouislider.js
+inc/lib/nouislider/nouislider.tooltips.css
+inc/lib/nouislider/nouislider.pips.css
+inc/lib/nouislider/nouislider.min.css
+
+inc/lib/perspective.js
+
+NETWORK:
+*

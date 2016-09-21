@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+  <head>
+    <title>WebScan</title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" sizes="196x196" href="icon-196x196.png">
+    <link rel="shortcut icon" sizes="128x128" href="icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="icon-128x128.png">
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="icon-128x128.png">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="inc/lib/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="inc/lib/bootstrap/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="inc/lib/bootstrap/css/bootstrap-theme.min.css">
+
+    <!-- NoUiSlider -->
+    <link href="inc/lib/nouislider/nouislider.min.css" rel="stylesheet">
+  </head>
+<style>
+body{
+  margin-top: 51px;
+  background: #333;
+}
+
+div.panel-heading, li.list-group-item, a {
+  cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
+
+.btn img {
+	max-width: 12px;
+	max-height: 12px;
+	margin-top: -4px;
+}
+</style>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-top-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id='app-name'><img src='favicon.png' alt='WebScan'/></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="content"></div>
+
+<div class="modal fade" id="please_wait_modal" tabindex="-1" role="dialog" aria-labelledby="pleaseWaitModal" aria-hidden="true" data-keyboard='false' data-backdrop='static'>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Chargement...</h2>
+      </div>
+      <div class="modal-body">
+        <div class="progress progress-striped active">
+          <div class="progress-bar"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+            <span class="sr-only">Chargement...</span>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="inc/lib/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="inc/lib/bootstrap/js/bootstrap.js"></script>
+
+    <!-- NoUiSlider -->
+    <script src="inc/lib/nouislider/nouislider.min.js"></script>
+
+    <script src="inc/lib/perspective.js"></script>
+    <script src="inc/mydialog.js"></script>
+    <script src="inc/objects.js"></script>
+    <script src="inc/main.js"></script>
+
+  </body>
+</html>
